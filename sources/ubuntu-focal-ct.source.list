@@ -1,0 +1,6 @@
+deb http://192.168.1.50:8081/repository/ubuntu/ focal main restricted universe multiverse
+
+deb http://192.168.1.50:8081/repository/ubuntu/ focal-updates main restricted universe multiverse
+
+deb http://192.168.1.50:8081/repository/ubuntu/ focal-security main restricted universe multiverse
+

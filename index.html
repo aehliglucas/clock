@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<!-- Favicon END -->
+		
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id=titletime></title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="dark-mode.css">
+<script>
+<!--
+'use strict';
+(function () {
+	function uhrzeit() {
+		var jetzt = new Date(),
+			h = jetzt.getHours(),
+			h = h-2,
+			m = jetzt.getMinutes(),
+			s = jetzt.getSeconds();
+		m = fuehrendeNull(m);
+		s = fuehrendeNull(s);
+		document.getElementById('uhr')
+			.innerHTML = h + ':' + m + ':' + s;
+      document.getElementById('titletime')
+			.innerHTML = h + ':' + m + ':' + s;
+		setTimeout(uhrzeit, 500);
+	}
+
+	function fuehrendeNull(zahl) {
+		zahl = (zahl < 10 ? '0' : '') + zahl;
+		return zahl;
+	}
+	document.addEventListener('DOMContentLoaded', uhrzeit);
+}());
+-->
+</script>
+<script>
+<!--
+'use strict';
+(function () {
+	function uhrzeit() {
+		var jetzt = new Date(),
+			h = jetzt.getHours(),
+			m = jetzt.getMinutes(),
+			s = jetzt.getSeconds();
+		m = fuehrendeNull(m);
+		s = fuehrendeNull(s);
+		document.getElementById('uhr2')
+			.innerHTML = h + ':' + m + ':' + s;
+		setTimeout(uhrzeit, 500);
+	}
+
+	function fuehrendeNull(zahl) {
+		zahl = (zahl < 10 ? '0' : '') + zahl;
+		return zahl;
+	}
+	document.addEventListener('DOMContentLoaded', uhrzeit);
+}());
+-->
+</script>
+</head>
+
+<body class="bg-white text-center d-flex h-100">
+  <div class="container d-flex p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <h3 class="float-left">Time - UTC - EDDP</h3>
+      <nav class="nav justify-content-center float-right">
+        <div class="nav-link">
+
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch">
+            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+          </div>
+
+        </div>
+      </nav>
+      <style>
+        h1 { font-size:5em; }
+
+      </style>
+    </header>
+
+    <main role="main">
+
+
+    <h5 class="content">UTC</h2>
+	
+    <h1 id="uhr"></h1>
+
+
+    <h5 class="content">EDDP</h2>
+	
+    <h1  id="uhr2"></h1>
+	<a href="https://clock.clemontx.de" target="popup" onclick="window.open('https://clock.clemontx.de','name','width=434,height=400')">Pop-UP</a>
+            </td>
+    </main>
+
+    <footer class="mt-auto">
+      <p>&copy; 2020 - ClemontX - Carl Dominik Sander</p>
+    </footer>
+
+    <!-- You must load 'dark-mode-switch.js' at the foot of the page -->
+    <script src="dark-mode-switch.min.js"></script>
+  </div>
+</body>
+
+</html>

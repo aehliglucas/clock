@@ -1,0 +1,85 @@
+{
+  "_args": [
+    [
+      "dark-mode-switch",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "dark-mode-switch@latest",
+  "_hasShrinkwrap": false,
+  "_id": "dark-mode-switch@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/dark-mode-switch",
+  "_nodeVersion": "10.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dark-mode-switch_1.0.0_1562153805857_0.878348617188341"
+  },
+  "_npmUser": {
+    "email": "christianoliff@yahoo.com",
+    "name": "coliff"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "dark-mode-switch",
+    "raw": "dark-mode-switch",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dark-mode-switch/-/dark-mode-switch-1.0.0.tgz",
+  "_shasum": "527b63adfca7157728e99e90010a3fbc7e4d7b8c",
+  "_shrinkwrap": null,
+  "_spec": "dark-mode-switch",
+  "_where": "/var/www/html",
+  "author": {
+    "email": "christianoliff@yahoo.com",
+    "name": "Christian Oliff"
+  },
+  "bugs": {
+    "url": "https://github.com/coliff/dark-mode-switch/issues"
+  },
+  "dependencies": {},
+  "description": "Dark-mode theme switch for Bootstrap with local storage preference",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 8,
+    "integrity": "sha512-wRoqYGmph7mwRbPcSNRR6DpRQe5wOK0lG6O3Hz7nIWWDyLAHSqje7PUI6c/acOYACiSPHc7sqysn57GSuklb6w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdHJNOCRA9TVsSAnZWagAAvr0P/j7XHVsLu7lnMutMMRBm\nc68yPqesA6DJYG3x7WI+Y+bOiQaSjQ7C2d4+GO1zsUCRxhIJPDVW23Yknm/Z\nkVB71ozdCbRmbn+BRQmE9GGKP0NA7CUOPcH9Qr1aCiscjf1gbBjJ4pyiDSDJ\n1CuGulv42umDvJkC+OFrXO0Kdtwb4AQbu58hRhN8cjcU5UkX72eay/pYLu/4\nO/cHdK9fcR++Pc039zFr4REJcEEk0F5pGNAnaH4a37M/+p2WBATCfpSzqsLQ\nFxnKiO8rbGnes5h/86eWTsjdK6jkd8tN9NY8wpIB+QLr53tCoVumrIgl/jGp\nGGgYQeMkJlgtwSyLHafOBsaYhwzCaKLtR6lqbpWVpSyucq9Ae8QRIxnJRyKT\nUOGffwtNmW2OqLXYeeMGEwX7H8vYTfW/lljgoe651aYb7TWu9/xG+jCEMY5y\nPw4KYcUffuLsYoymenR0Q/9vVwcPI8mmzrnUgsYAIIoPutG8PtdZh4GjnSj2\n418pOB3rmTdu1Y5LRIwJdkZn0k2UzPkxJM9bp7aHHtmzuzY//dzyoCHaQJ6e\npIXjLUkA9i95LKRGOMVj6KU0iOT1hM94cRs0ud3F7lsSWrtX3zWDOMRTZn3l\nxXuUpvVdjlu2k+NLtOyFLRbA5dutcWjC0dQXzFGm0yBEd2pA1fUZ3ehI4Pqn\n5ykQ\r\n=BT3z\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "527b63adfca7157728e99e90010a3fbc7e4d7b8c",
+    "tarball": "https://registry.npmjs.org/dark-mode-switch/-/dark-mode-switch-1.0.0.tgz",
+    "unpackedSize": 7333
+  },
+  "gitHead": "56e58821faf3f6ac3ee730f94cb0af95f9f8daf2",
+  "homepage": "https://github.com/coliff/dark-mode-switch",
+  "keywords": [
+    "bootstrap",
+    "dark-mode"
+  ],
+  "license": "MIT",
+  "main": "dark-mode-switch.min.js",
+  "maintainers": [
+    {
+      "name": "coliff",
+      "email": "christianoliff@yahoo.com"
+    }
+  ],
+  "name": "dark-mode-switch",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coliff/dark-mode-switch.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

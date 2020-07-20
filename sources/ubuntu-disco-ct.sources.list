@@ -1,0 +1,6 @@
+deb http://192.168.1.50:8081/repository/ubuntu/ disco main restricted universe multiverse
+
+deb http://192.168.1.50:8081/repository/ubuntu/ disco-updates main restricted universe multiverse
+
+deb http://192.168.1.50:8081/repository/ubuntu/ disco-security main restricted universe multiverse
+
