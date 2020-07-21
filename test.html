@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <title>Display IP Address</title>
+  <title>Time</title>
   <style>
     body {
-      background-color: #FFCC00;
+      background-color: #0e0e0e;
     }
 
     h1 {
@@ -14,6 +14,7 @@
       padding-top: 140px;
       font-size: 60px;
       margin: -15px;
+      color: #ffffff;
     }
 
     p {
@@ -26,18 +27,24 @@
 
 <body>
   <h1 id=ipText></h1>
-  <p>( This is your IP address...probably :P )</p>
   <script>
+    var time;
     fetch("http://worldtimeapi.org/api/timezone/Europe/Berlin")
       .then(function (response) {
         return response.json();
       })
       .then(function (myJson) {
         document.querySelector("#ipText").innerHTML = myJson.unixtime;
+        irgendwas(myJson.unixtime);
       })
       .catch(function (error) {
         console.log("Error: " + error);
       });
+ function irgendwas(a) {
+     console.log(a);
+     a 
+
+  }
   </script>
 </body>
 

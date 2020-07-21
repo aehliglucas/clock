@@ -1,4 +1,9 @@
-let xhr = new XMLHttpRequest();
-xhr.open('GET', "https://ipinfo.io/json", true);
-document.getElementById('uhr')
-    .innerHTML = xhr;
+  
+fetch("http://worldtimeapi.org/api/timezone/Europe/Berlin)
+.then(
+        function(u){ return u.json();}
+      ).then(
+        function(json){
+          jsondata = json;
+        }
+      )
