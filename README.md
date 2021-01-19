@@ -1,4 +1,4 @@
-[![Build status](https://dev.azure.com/clemont/ClemontX.DE/_apis/build/status/ClemontX.DE-Docker%20container-CI)](https://dev.azure.com/clemont/ClemontX.DE/_build/latest?definitionId=-1)![Docker](https://github.com/ClemontX/clock/workflows/Docker/badge.svg)
+[![Build status](https://dev.azure.com/clemont/ClemontX.DE/_apis/build/status/clemontx-clock%20-%20Docker)](https://dev.azure.com/clemont/ClemontX.DE/_build/latest?definitionId=1)
 # ClemontX.DE - Clock
 
 This is my first Docker-Image!
